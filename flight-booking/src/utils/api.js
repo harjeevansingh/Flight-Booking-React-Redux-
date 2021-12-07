@@ -49,8 +49,28 @@ export const getAllBookingsAPI = () => {
 
 export const deleteBookingAPI = bookingId => {
     /* your code goes here */
-    
+    Axios
+        .delete(url+"/deleteBooking/"+bookingId)
+        .then(res=>res.data.message)
+        .catch(error=>{
+            if(error.status==404){ // try error.data.status
+                throw error.data.message;
+            } else{
+                throw "Please start your Express server";
+            }
+        })
 }
 
 export const updateBookingAPI = (bookingId, formData) => {
-    /* your code goes here 
+    /* your code goes here */
+    Axios
+        .put(url+"/updatebooking/"+bookingId, formData)
+        .then(res=>res.data.message)
+        .catch(error=>{
+            if(error.status==404){ // try error.data.status
+                throw error.data.message;
+            } else{
+                throw "Please start your Express server";
+            }
+        })
+}
