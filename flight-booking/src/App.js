@@ -14,7 +14,7 @@ class App extends Component {
         <div>
           <Evaluator></Evaluator>
           <nav className="navbar navbar-expand-lg navbar-light  bg-custom">
-            <span className="navbar-brand">Infy Airlines</span>
+            <span className="navbar-brand">WorldGo Airlines</span>
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className="nav-link" to="/bookFlight">
