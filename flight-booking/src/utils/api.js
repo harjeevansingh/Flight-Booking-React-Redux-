@@ -44,8 +44,8 @@ export const getAllBookingsAPI = () => {
             return response.data
         })
         .catch(error=>{
-            if(error.status===404){ // try error.data.status
-                throw error.data.message;
+            if(error.response){ // try error.data.status
+                throw error.response.data.message;
             } else{
                 throw "Please start your Express server";
             }
@@ -74,8 +74,8 @@ export const deleteBookingAPI = bookingId => {
         .delete(url+"/deleteBooking/"+bookingId)
         .then(res=>res.data.message)
         .catch(error=>{
-            if(error.status===404){ // try error.data.status
-                throw error.data.message;
+            if(error.response){ // try error.data.status
+                throw error.response.data.message;
             } else{
                 throw "Please start your Express server";
             }
@@ -89,8 +89,8 @@ export const updateBookingAPI = (bookingId, formData) => {
         .put(url+"/updatebooking/"+bookingId, formData)
         .then(res=>res.data.message)
         .catch(error=>{
-            if(error.status===404){ // try error.data.status
-                throw error.data.message;
+            if(error.response){ // try error.data.status
+                throw error.response.data.message;
             } else{
                 throw "Please start your Express server";
             }
