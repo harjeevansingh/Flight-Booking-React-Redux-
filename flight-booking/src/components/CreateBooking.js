@@ -64,47 +64,46 @@ class CreateBooking extends Component {
 
   validateField = (fieldName, value) => {
     /* your code goes here */
+    var {formErrorMessage, formValid} = this.state;
     switch(fieldName){
       case "customerId":
-        if(value==""){  // Check another comparison method or operator
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, customerId:"field required"}});     // may need to add this.state before ...formErrorMessage
-          this.setState({formValid:{...this.state.formValid,customerId:false}});
+        if(value===""){  // Check another comparison method or operator
+          formErrorMessage[fieldName] = "field required";
+          formValid[fieldName] = false;
         }else if(!/^[A-Z][\d]{4}$/.test(value)){
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, customerId:"Customer Id must start with an alphabet followed by 4 digits"}});
-          this.setState({formValid:{...this.state.formValid,customerId:false}});
+          formErrorMessage[fieldName] = "Customer Id must start with an alphabet followed by 4 digits";
+          formValid[fieldName] = false;
         }else{
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, customerId:""}});
-          this.setState({formValid:{...this.state.formValid,customerId:true}});
+          formErrorMessage[fieldName] = "";
+          formValid[fieldName] = true;
         }
         break;
       case "noOfTickets":
-        if(value==""){  // Check another comparison method or operator
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, noOfTickets:"field required"}});     // may need to add this.state before ...formErrorMessage
-          this.setState({formValid:{...this.state.formValid,noOfTickets:false}});
+        if(value===""){  // Check another comparison method or operator
+          formErrorMessage[fieldName] = "field required";
+          formValid[fieldName] = false;
         }else if(value<1 || value>10){
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, noOfTickets:"No of tickets should be greater than 0 and less than 10"}});     // may need to add this.state before ...formErrorMessage
-          this.setState({formValid:{...this.state.formValid,noOfTickets:false}});
+          formErrorMessage[fieldName] = "No of tickets should be greater than 0 and less than 10";
+          formValid[fieldName] = false;
+          console.log(formErrorMessage);
         } else{
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, noOfTickets:""}});
-          this.setState({formValid:{...this.state.formValid,noOfTickets:true}});
+          formErrorMessage[fieldName] = "";
+          formValid[fieldName] = true;
         }
         break;
       case "flightId":
-        if(value==""){  // Check another comparison method or operator
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, flightId:"field required"}});     // may need to add this.state before ...formErrorMessage
-          this.setState({formValid:{...this.state.formValid,flightId:false}});
+        if(value===""){  // Check another comparison method or operator
+          formErrorMessage[fieldName] = "field required";
+          formValid[fieldName] = false;
         }else{
-          this.setState({formErrorMessage:{...this.state.formErrorMessage, flightId:""}});
-          this.setState({formValid:{...this.state.formValid,flightId:true}});
+          formErrorMessage[fieldName] = "";
+          formValid[fieldName] = true;
         }
         break;
     }
-    var formValid = this.state.formValid;
-    formValid = {...formValid, buttonActive:(formValid.customerId && formValid.noOfTickets && formValid.flightId)};
-    this.setState({formValid:formValid});
-
-  };
-
+    formValid["buttonActive"] = formValid.customerId && formValid.noOfTickets && formValid.flightId;
+    this.setState({formValid:formValid, formErrorMessage:formErrorMessage});
+  }
   render() {
     return (
       <div className="CreateBooking ">
@@ -143,9 +142,10 @@ class CreateBooking extends Component {
                       <span className="text-danger">{this.state.formErrorMessage.noOfTickets}</span>
                   </div>
                   <button type="submit" className="btn btn-primary" disabled={!this.state.formValid.buttonActive}>Book Flight</button>
-                  <span className="text-success">{this.props.Messages.successMessage}</span>
-                  <span className="text-danger">{this.props.Messages.errorMessage}</span>
-                </form>
+                  <br/>    
+              <span className="text-success">{this.props.Messages.successMessage}</span>
+              <span className="text-danger">{this.props.Messages.errorMessage}</span>
+              </form>
               </div>
             </div>
           </div>
