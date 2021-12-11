@@ -32,7 +32,7 @@ class CreateBooking extends Component {
   }
 
   componentDidMount = ()=>{
-    this.fetchFlightIds();
+    this.fetchFlightIds();    
   }
 
   resetMessages = ()=>{
@@ -58,7 +58,7 @@ class CreateBooking extends Component {
     /* your code goes here */
     const value = event.target.value;
     const name = event.target.name;
-    this.setState({form:{...this.state.form, name:value}});
+    this.setState({form:{...this.state.form, [name]:value}});
     this.validateField(name, value);
   };
 
@@ -88,6 +88,7 @@ class CreateBooking extends Component {
           this.setState({formErrorMessage:{...this.state.formErrorMessage, noOfTickets:""}});
           this.setState({formValid:{...this.state.formValid,noOfTickets:true}});
         }
+        break;
       case "flightId":
         if(value==""){  // Check another comparison method or operator
           this.setState({formErrorMessage:{...this.state.formErrorMessage, flightId:"field required"}});     // may need to add this.state before ...formErrorMessage
@@ -96,6 +97,7 @@ class CreateBooking extends Component {
           this.setState({formErrorMessage:{...this.state.formErrorMessage, flightId:""}});
           this.setState({formValid:{...this.state.formValid,flightId:true}});
         }
+        break;
     }
     var formValid = this.state.formValid;
     formValid = {...formValid, buttonActive:(formValid.customerId && formValid.noOfTickets && formValid.flightId)};
@@ -137,7 +139,7 @@ class CreateBooking extends Component {
                   <div className="form-group">
                     <lable htmlFor="noOfTickets">Number of tickets</lable>
                     <input type="number" min="1" max="10" value={this.state.form.noOfTickets} onChange={this.handleChange} name="noOfTickets"
-                      className="form-control"></input>
+                      className="form-control" placeholder="min-1 max-10"></input>
                       <span className="text-danger">{this.state.formErrorMessage.noOfTickets}</span>
                   </div>
                   <button type="submit" className="btn btn-primary" disabled={!this.state.formValid.buttonActive}>Book Flight</button>
@@ -161,4 +163,4 @@ function mapStateToProps(state){    // check the way of setting the state
 }
 
 //Pass state props to this component and export it
-export default connect(mapStateToProps, CreateBooking);
+export default connect(mapStateToProps)(CreateBooking);
