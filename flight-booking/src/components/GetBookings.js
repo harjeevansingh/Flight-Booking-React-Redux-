@@ -58,7 +58,7 @@ class GetBooking extends Component {
                       </tr>
                     </thead>
                     <tbody>
-                      {this.props.AllBookings.map((booking)=>{
+                      {this.props.AllBookings!==null? this.props.AllBookings.map((booking)=>{
                         return(
                           <tr>
                             <td>{booking.customerId}</td>
@@ -70,7 +70,7 @@ class GetBooking extends Component {
 
                           </tr>
                         )
-                      })}
+                      }) : null }
                     </tbody>
                   </table>
                 }
