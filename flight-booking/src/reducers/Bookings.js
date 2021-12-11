@@ -6,7 +6,7 @@ export const FlightIds = ( state = [], action ) => {
     if(action.type == GET_ALL_FLIGHTIDS){  // may need to use equals
         return([                                // might need to remove the ...state
             ...state,
-            action.flightIds
+            ...action.flightIds
         ]);
     }else{
         return [...state]
