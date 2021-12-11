@@ -37,62 +37,75 @@ export const fetchFlightIdsAction = (flightIds) => {
 // Get Bookings
 export const handleGetBookings = (dispatch) => {
     /* your code goes here */
-    try{
-        const bookings = getAllBookingsAPI();
-        dispatch(getBookingsAction(bookings));
-        dispatch(setMessageAction("", ""));
-    }catch(error){
+    getAllBookingsAPI()
+    .then(bookings => {
+        dispatch(getBookingsAction(bookings))
+        dispatch(setMessageAction("", ""))
+    })
+    .catch(error=>{
         dispatch(setMessageAction("", error.message));  // Only error message has to be set and success msg shouls not have been toucheds(clear- mentioned only msg should be displayed)
         dispatch(getBookingsAction([]))
-    }
-    
-
+    })   
 }
+
+// export const handleGetBookings = async (dispatch) => {
+// 	/* your code goes here */
+
+// 	try {
+// 		const bookings = await getAllBookingsAPI();
+// 		dispatch(getBookingsAction(bookings));
+// 		dispatch(setMessageAction("", ""));
+// 	} catch (error) {
+// 		dispatch(setMessageAction("", error)); // Only error message has to be set and success msg shouls not have been toucheds(clear- mentioned only msg should be displayed)
+// 		dispatch(getBookingsAction([]));
+// 	}
+// };
+
 
 //Delete Booking
 export const handleDeleteBooking = (dispatch, bookingId) => {    // from are they getting the dispatch 
     /* your code goes here */
-    try{
-        const successMessage = deleteBookingAPI(bookingId);
+    deleteBookingAPI(bookingId)
+    .then(successMessage=>{
         dispatch(setMessageAction(successMessage, ""));
         handleGetBookings(dispatch);
-    }catch(error){
+    })
+    .catch(error=>{
         dispatch(setMessageAction("", error.message));
-    }
-
+    })
 }
 
 //Update Booking
 export const handleUpdateBooking = (dispatch, bookingId, formData) => {
     /* your code goes here */
-    try{
-        const successMessage = updateBookingAPI(bookingId, formData);
-        dispatch(setMessageAction(successMessage, ""));
-    }catch(error){
-        dispatch(setMessageAction("", error.message));
-    }
+    updateBookingAPI(bookingId, formData)
+    .then(successMessage=>dispatch(setMessageAction(successMessage, "")))
+    .catch(error=>{
+        dispatch(setMessageAction("", error.message))
+    })
 }
 
 //Fetch all flight Ids
 export const handleFetchFlightIds = (dispatch) => {
     /* your code goes here */
-    try{
-        const flightIds = fetchFlightIdsAPI();
+    fetchFlightIdsAPI()
+    .then(flightIds=>{
+        console.log(flightIds);
         dispatch(fetchFlightIdsAction(flightIds));
         dispatch(setMessageAction("", ""));
-    }catch(error){
+    })
+    .catch(error=>{
         dispatch(setMessageAction("", error.message));
         dispatch(fetchFlightIdsAction([]));
-    }
+    })
 }
 
 //Submit Booking
 export const handleSubmitBooking = (dispatch, formData) => {
     /* your code goes here */
-    try{
-        const successMessage = submitBookingAPI(formData);
-        dispatch(setMessageAction(successMessage, ""));
-    }catch(error){
-        dispatch(setMessageAction("", error.message));
-    }
+    submitBookingAPI(formData)
+        .then(successMessage=>dispatch(setMessageAction(successMessage, "")))
+        .catch(error=>{
+            dispatch(setMessageAction("", error.message))
+        })
 }
