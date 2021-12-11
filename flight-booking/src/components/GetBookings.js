@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 import { handleDeleteBooking, handleGetBookings } from "../actions/Bookings";
 /* Import necessary modules and functions Here */
 
+import { Redirect } from "react-router-dom";
+
 class GetBooking extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +35,11 @@ class GetBooking extends Component {
   }
 
   render() {
+    var redirect = null;
+
+    if (this.state.updateStatus) {
+      redirect = <Redirect to={"/updateBooking/" + this.state.bookingId} push />;
+    }
 
     return (
       <div className="GetBooking">
@@ -45,7 +52,7 @@ class GetBooking extends Component {
               </div>
               <div className="card-body">
                 {/* Implement the JSX of GetBooking component here */}
-                {this.props.Messages.errorMessage!="" ?  
+                {this.props.Messages.errorMessage!=="" ?  
                   <span className="text-danger">{this.props.Messages.errorMessage}</span> :
                   <table className="table">
                     <thead>
@@ -67,13 +74,13 @@ class GetBooking extends Component {
                             <td>{booking.bookingCost}</td>
                             <td><button className="btn btn-success" onClick={()=>{this.updateBooking(booking.bookingId)}}>Update</button></td>
                             <td><button className="btn btn-danger" onClick={()=>{this.deleteBooking(booking.bookingId)}}>Cancel</button></td>
-
                           </tr>
                         )
                       }) : null }
                     </tbody>
                   </table>
                 }
+                {redirect}
               </div>
             </div>
           </div>
