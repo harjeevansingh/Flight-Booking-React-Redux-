@@ -3,11 +3,8 @@ import { GET_ALL_BOOKINGS,  SET_MESSAGE, GET_ALL_FLIGHTIDS } from "../actions/Bo
 //Return all flight Ids
 export const FlightIds = ( state = [], action ) => {
     /* your code goes here */
-    if(action.type == GET_ALL_FLIGHTIDS){  // may need to use equals
-        return([                                // might need to remove the ...state
-            ...state,
-            ...action.flightIds
-        ]);
+    if(action.type === GET_ALL_FLIGHTIDS){  // may need to use equals
+        return action.flightIds                    // might need to remove the ...state
     }else{
         return [...state]
     }
@@ -16,7 +13,7 @@ export const FlightIds = ( state = [], action ) => {
 //Returns all bookings
 export const AllBookings = (state = null, action) => {
     /* your code goes here */
-    if(action.type== GET_ALL_BOOKINGS){
+    if(action.type=== GET_ALL_BOOKINGS){
         return action.bookings // might need to replace bookings by flightIds
     }else{
         return state;
@@ -24,11 +21,10 @@ export const AllBookings = (state = null, action) => {
 }
 
 //Return success and error messages
-export const Messages = (state = { successMessage: "", errorMessage: '' }, action) => {
+export const Messages = (state = { successMessage: "", errorMessage: "" }, action) => {
     /* your code goes here */
-    if(action.type== SET_MESSAGE){
+    if(action.type=== SET_MESSAGE){
         return ({
-            ...state,
             successMessage:action.successMessage,
             errorMessage:action.errorMessage
         })
