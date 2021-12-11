@@ -1,0 +1,245 @@
+Sat Dec 11 2021 20:05:43 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:17:08 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:24:52 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:26:01 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:27:55 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:28:24 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:28:58 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:29:42 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:02 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:23 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-102 is cancelled!!
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:54:31
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:28 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.2400 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:69:35
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:33 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:69:35
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:39 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:43 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:49 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:52 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:69:35
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:30:55 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.800 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:69:35
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 20:54:45 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:44:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 21:58:18 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 21:58:41 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.1200 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:00:58 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.2400 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:01:42 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:02:33 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:06:01 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:07:53 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:09:32 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:15:02 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:15:24 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:15:55 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:17:06 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.1200 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:17:19 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:18:29 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:19:10 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.1200 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:19:17 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.1800 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:21:24 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.1200 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:25:05 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:25:28 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:27:06 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:27:45 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:28:00 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:158:10)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:28:14 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:28:24 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:28:35 GMT+0530 (India Standard Time) - CastError: Cast to Number failed for value "NaN" (type number) at path "availableSeats"
+    at model.Query.exec (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\mongoose\lib\query.js:4592:15)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\model\users.js:133:152
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:28:47 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:28:54 GMT+0530 (India Standard Time) - CastError: Cast to Number failed for value "NaN" (type number) at path "availableSeats"
+    at model.Query.exec (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\mongoose\lib\query.js:4592:15)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\model\users.js:133:152
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:29:01 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:29:29 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token b in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:224:16)
+    at done (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Sat Dec 11 2021 22:29:49 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sat Dec 11 2021 22:31:28 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at D:\product\Projects\frontend\react\Capstone Project\Major Project\FlightBookingWithReduxToTrainee\ReactIntegrated-WithRedux-toTrainee\FBWebService\src\service\users.js:167:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
