@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { handleDeleteBooking, handleGetBookings } from "../actions/Bookings";
 /* Import necessary modules and functions Here */
 
 class GetBooking extends Component {
@@ -10,13 +12,24 @@ class GetBooking extends Component {
     };
   }
 
+  fetchBooking = () => {
+    handleGetBookings(this.props.dispatch);
+  }
+
+  componentDidMount = ()=>{
+    this.fetchBooking();
+  }
  
   updateBooking = (bid) => { 
     /* your code goes here */
+    this.setState({bookingId:bid, updateStatus:true});  // add it to button for update  // Should invoke some action
+
+
   }
 
   deleteBooking = (id) => { 
     /* your code goes here */
+    handleDeleteBooking(this.props.dispatch, id); // invoked on the click of Cancel
   }
 
   render() {
@@ -32,6 +45,35 @@ class GetBooking extends Component {
               </div>
               <div className="card-body">
                 {/* Implement the JSX of GetBooking component here */}
+                {this.props.Messages.errorMessage!="" ?  
+                  <span className="text-danger">{this.props.Messages.errorMessage}</span> :
+                  <table className="table">
+                    <thead>
+                      <tr>
+                        <th>Customer Id</th>
+                        <th>Booking Id</th>
+                        <th>Total Tickets</th>
+                        <th>Total Cost</th>
+                        <th colSpan="2">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {this.props.AllBookings.map((booking)=>{
+                        return(
+                          <tr>
+                            <td>{booking.customerId}</td>
+                            <td>{booking.bookingId}</td>
+                            <td>{booking.noOfTickets}</td>
+                            <td>{booking.bookingCost}</td>
+                            <td><button className="btn btn-success" onClick={()=>{this.updateBooking(booking.bookingId)}}>Update</button></td>
+                            <td><button className="btn btn-danger" onClick={()=>{this.deleteBooking(booking.bookingId)}}>Cancel</button></td>
+
+                          </tr>
+                        )
+                      })}
+                    </tbody>
+                  </table>
+                }
               </div>
             </div>
           </div>
@@ -40,4 +82,13 @@ class GetBooking extends Component {
     );
   }
 }
+
+function mapStateToProps(state){
+  return({
+    AllBookings:state.AllBookings,
+    Messages:state.Messages
+  })
+}
+
 //Pass state props to this component and export it
+export default connect(mapStateToProps)(GetBooking);
