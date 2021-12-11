@@ -82,7 +82,7 @@ class CreateBooking extends Component {
         if(value===""){  // Check another comparison method or operator
           formErrorMessage[fieldName] = "field required";
           formValid[fieldName] = false;
-        }else if(value<1 || value>10){
+        }else if(value<1 || value>=10){
           formErrorMessage[fieldName] = "No of tickets should be greater than 0 and less than 10";
           formValid[fieldName] = false;
           console.log(formErrorMessage);
