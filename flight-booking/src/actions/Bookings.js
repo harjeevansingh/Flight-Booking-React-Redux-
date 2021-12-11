@@ -43,7 +43,7 @@ export const handleGetBookings = (dispatch) => {
         dispatch(setMessageAction("", ""))
     })
     .catch(error=>{
-        dispatch(setMessageAction("", error.message));  // Only error message has to be set and success msg shouls not have been toucheds(clear- mentioned only msg should be displayed)
+        dispatch(setMessageAction("", error));  // Only error message has to be set and success msg shouls not have been toucheds(clear- mentioned only msg should be displayed)
         dispatch(getBookingsAction([]))
     })   
 }
@@ -71,7 +71,7 @@ export const handleDeleteBooking = (dispatch, bookingId) => {    // from are the
         handleGetBookings(dispatch);
     })
     .catch(error=>{
-        dispatch(setMessageAction("", error.message));
+        dispatch(setMessageAction("", error));
     })
 }
 
@@ -81,7 +81,7 @@ export const handleUpdateBooking = (dispatch, bookingId, formData) => {
     updateBookingAPI(bookingId, formData)
     .then(successMessage=>dispatch(setMessageAction(successMessage, "")))
     .catch(error=>{
-        dispatch(setMessageAction("", error.message))
+        dispatch(setMessageAction("", error))
     })
 }
 
@@ -95,7 +95,7 @@ export const handleFetchFlightIds = (dispatch) => {
         dispatch(setMessageAction("", ""));
     })
     .catch(error=>{
-        dispatch(setMessageAction("", error.message));
+        dispatch(setMessageAction("", error));
         dispatch(fetchFlightIdsAction([]));
     })
 }
@@ -104,8 +104,8 @@ export const handleFetchFlightIds = (dispatch) => {
 export const handleSubmitBooking = (dispatch, formData) => {
     /* your code goes here */
     submitBookingAPI(formData)
-        .then(successMessage=>dispatch(setMessageAction(successMessage, "")))
+    .then(successMessage=>dispatch(setMessageAction(successMessage, "")))
         .catch(error=>{
-            dispatch(setMessageAction("", error.message))
+            dispatch(setMessageAction("", error))
         })
 }
