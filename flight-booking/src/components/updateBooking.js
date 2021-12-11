@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 /* Import necessary modules here */
 
 class UpdateBooking extends Component {
@@ -64,3 +65,4 @@ class UpdateBooking extends Component {
 }
 
 //Pass state props to this component and export it
+export default connect()(UpdateBooking);

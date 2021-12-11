@@ -1,2 +1,9 @@
-File api.js
-add redirect to updateStatus in getBooking
+1. File api.js
+
+
+2. getBookings - Component 
+add redirect to updateStatus 
+
+
+3. createBooking - component
+validation for noOfTickets when input in alpha
